@@ -55,10 +55,26 @@ a.nav-link:focus {
 .nav-item {
     margin-right: 20px;
 }
-.container{
-    height: 800px;
+
+.container {
     background-color: #fff;
 }
+
+.ad {
+    margin-bottom: 10px;
+}
+
+.carousel {
+    margin-top: 10px
+}
+
+.index-title {
+    font-size: var(--h4);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
