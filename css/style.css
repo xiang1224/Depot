@@ -1,0 +1,87 @@
+:root {
+    --primary: #4E889A;
+    --primary-deep: #447584;
+    --primary-deep2: #28454E;
+    --primary-light: #69B5CC;
+    --secondary: #ba5e5d;
+    --secondary-deep: #af1e15;
+    --secondary-deep2: #ba0302;
+    --secondary-light: #B98584;
+    --info: rgba(212, 202, 205);
+    --h1: 64px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 36px;
+    --h5: 32px;
+    --h6: 24px;
+    --p: 20px;
+    --p1: 16px;
+    --p2: 12px;
+}
+
+nav {
+    background-color: var(--primary);
+    height: 100px;
+}
+
+a.navbar-brand {
+    margin-left: 50px;
+    color: white;
+    font-size: var(--h3);
+}
+
+a.navbar-brand:hover {
+    margin-left: 50px;
+    color: white;
+    font-size: var(--h3);
+}
+
+a.nav-link {
+    color: white;
+    font-size: var(--h6);
+}
+
+a.nav-link:hover,
+a.nav-link:active,
+a.nav-link:focus {
+    color: black;
+    font-size: var(--h6);
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+.container{
+    height: 800px;
+    background-color: #fff;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--primary);
+    /* 設置您想要的背景顏色 */
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 50%;
+}
+
+.footer-column img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-bottom {
+    background-color: var(--primary);
+    /* 設置您想要的版權宣告區背景顏色 */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
