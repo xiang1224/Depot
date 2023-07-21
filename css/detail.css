@@ -1,8 +1,8 @@
 :root {
-    --primary: #4E889A;
-    --primary-deep: #447584;
-    --primary-deep2: #28454E;
-    --primary-light: #69B5CC;
+    --primary: #D5C539;
+    --primary-deep: #C6B735;
+    --primary-deep2: #B0A32F;
+    --primary-light: #F4E244;
     --secondary: #ba5e5d;
     --secondary-deep: #af1e15;
     --secondary-deep2: #ba0302;
@@ -20,7 +20,7 @@
 }
 .container{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 #main-image {
     width: 560px;

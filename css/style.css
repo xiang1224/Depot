@@ -1,8 +1,8 @@
 :root {
-    --primary: #4E889A;
-    --primary-deep: #447584;
-    --primary-deep2: #28454E;
-    --primary-light: #69B5CC;
+    --primary: #D5C539;
+    --primary-deep: #C6B735;
+    --primary-deep2: #B0A32F;
+    --primary-light: #F4E244;
     --secondary: #ba5e5d;
     --secondary-deep: #af1e15;
     --secondary-deep2: #ba0302;
@@ -20,7 +20,7 @@
 }
 
 nav {
-    background-color: var(--primary);
+    background-color: black;
 }
 .navbar-toggler-icon {
     /* 或設定背景色，例如灰色 */
@@ -48,7 +48,7 @@ a.nav-link {
 a.nav-link:hover,
 a.nav-link:active,
 a.nav-link:focus {
-    color: black;
+    color: var(--primary);
     font-size: var(--h6);
 }
 
@@ -77,7 +77,7 @@ a.nav-link:focus {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: var(--primary);
+    background-color: black;
     /* 設置您想要的背景顏色 */
 }
 
@@ -93,7 +93,7 @@ a.nav-link:focus {
 }
 
 .footer-bottom {
-    background-color: var(--primary);
+    background-color: black;
     /* 設置您想要的版權宣告區背景顏色 */
     color: #fff;
     text-align: center;
