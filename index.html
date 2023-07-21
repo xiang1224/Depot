@@ -14,46 +14,7 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="#">東方改裝車廠</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">最新消息</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCars" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            車種分類
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownCars">
-                            <li><a class="dropdown-item" href="#">跑車</a></li>
-                            <li><a class="dropdown-item" href="#">轎車</a></li>
-                            <li><a class="dropdown-item" href="#">機車</a></li>
-                            <!-- Add more items here if needed -->
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            關於我們
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
-                            <li><a class="dropdown-item" href="#">團隊介紹</a></li>
-                            <li><a class="dropdown-item" href="#">公司歷程</a></li>
-                            <li><a class="dropdown-item" href="#">服務宗旨</a></li>
-                            <!-- Add more items here if needed -->
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <my-header></my-header>
     <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -99,8 +60,6 @@
             </button>
         </div>
         <h5 class="index-title">服務項目</h5>
-    </div>
-    <div class="container ad">
         <div class="row">
             <div class="col-md-6">
                 <img src="img/East-LOGO.png" class="img-fluid" alt="圖片1" style="width: 700px;">
@@ -110,19 +69,7 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-column">
-                <img src="img/NY-LOGO.png" alt="圖片1">
-            </div>
-            <div class="footer-column">
-                <img src="img/East-LOGO.png" alt="圖片2">
-            </div>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2023 東方改裝車廠，保留所有權利。
-        </div>
-    </footer>
+    <my-footer></my-footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -131,6 +78,9 @@
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
         crossorigin="anonymous"></script>
 
+
+    <script src="js/navbar.js"></script>   
+    <script src="js/footer.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
