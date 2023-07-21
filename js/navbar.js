@@ -9,7 +9,7 @@ class MyHeader extends HTMLElement {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">最新消息</a>
                     </li>

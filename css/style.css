@@ -21,15 +21,19 @@
 
 nav {
     background-color: var(--primary);
-    height: 100px;
 }
-
+.navbar-toggler-icon {
+    /* 或設定背景色，例如灰色 */
+    background-image: url('/img/burger.png');
+}
 a.navbar-brand {
     margin-left: 50px;
     color: white;
     font-size: var(--h3);
 }
-
+.navbar-nav{
+    margin-left: auto;
+}
 a.navbar-brand:hover {
     margin-left: 50px;
     color: white;
@@ -94,4 +98,11 @@ a.nav-link:focus {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+@media (max-width:576px) {
+    .navbar-nav{
+        margin-left: 20px;
+        margin-right: auto;
+    }
 }

@@ -52,6 +52,13 @@
     list-style: none;
     padding-left: 0;
 }
+/* 加大核取方塊 */
+.refit input[type="checkbox"] {
+    transform: scale(1.5);
+    /* 調整核取方塊的大小，這裡使用 1.5 倍 */
+    margin-right: 10px;
+    /* 調整核取方塊與文字之間的間距 */
+}
 .price{
     font-size: var(--h4);
     position: absolute;
