@@ -31,9 +31,9 @@ class MyHeader extends HTMLElement {
                             關於我們
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
-                            <li><a class="dropdown-item" href="#">團隊介紹</a></li>
-                            <li><a class="dropdown-item" href="#">公司歷程</a></li>
-                            <li><a class="dropdown-item" href="#">服務宗旨</a></li>
+                            <li><a class="dropdown-item" href="team.html">團隊介紹</a></li>
+                            <li><a class="dropdown-item" href="company.html">公司歷程</a></li>
+                            <li><a class="dropdown-item" href="service.html">服務宗旨</a></li>
                             <!-- Add more items here if needed -->
                         </ul>
                     </li>

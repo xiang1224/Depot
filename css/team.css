@@ -1,0 +1,29 @@
+.card {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-subtitle {
+    font-weight: bolder;
+}
+
+.card-text {
+    font-weight: 900;
+}
+
+.member-title{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.title {
+    margin-top: 20px;
+    font-weight: bold;
+}
