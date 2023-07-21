@@ -1,0 +1,58 @@
+:root {
+    --primary: #4E889A;
+    --primary-deep: #447584;
+    --primary-deep2: #28454E;
+    --primary-light: #69B5CC;
+    --secondary: #ba5e5d;
+    --secondary-deep: #af1e15;
+    --secondary-deep2: #ba0302;
+    --secondary-light: #B98584;
+    --info: rgba(212, 202, 205);
+    --h1: 64px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 36px;
+    --h5: 32px;
+    --h6: 24px;
+    --p: 20px;
+    --p1: 16px;
+    --p2: 12px;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#main-image {
+    width: 560px;
+}
+.thumbnail-images {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.thumbnail-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.thumbnail-image:hover {
+    border: 2px solid #333;
+}
+.car-title{
+    font-size: var(--h3);
+}
+
+.refit{
+    font-size: var(--h5);
+    list-style: none;
+    padding-left: 0;
+}
+.price{
+    font-size: var(--h4);
+    position: absolute;
+}

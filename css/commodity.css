@@ -18,7 +18,10 @@
     --p1: 16px;
     --p2: 12px;
 }
-
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .card {
     margin: 10px;
     /* 設置卡片之間的間距 */
