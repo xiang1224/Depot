@@ -1,0 +1,80 @@
+:root {
+    --primary: #4E889A;
+    --primary-deep: #447584;
+    --primary-deep2: #28454E;
+    --primary-light: #69B5CC;
+    --secondary: #ba5e5d;
+    --secondary-deep: #af1e15;
+    --secondary-deep2: #ba0302;
+    --secondary-light: #B98584;
+    --info: rgba(212, 202, 205);
+    --h1: 64px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 36px;
+    --h5: 32px;
+    --h6: 24px;
+    --p: 20px;
+    --p1: 16px;
+    --p2: 12px;
+}
+
+.card {
+    margin: 10px;
+    /* 設置卡片之間的間距 */
+    width: 280px;
+    height: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* 添加陰影效果 */
+    transition: box-shadow 0.3s ease;
+    /* 添加陰影過渡效果 */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* 滑鼠懸停時陰影加深 */
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card:hover .card-img-top {
+    filter: blur(3px);
+    /* 滑鼠懸停時圖片模糊 */
+}
+
+input {
+    border: 0;
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:hover {
+    color: white;
+    background-color: var(--primary-deep);
+}
+
+.card-text{
+    position: absolute;
+    bottom: 15px;
+}
