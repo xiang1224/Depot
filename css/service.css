@@ -3,10 +3,8 @@
     font-weight: bold;
 }
 
-.col-sm-3{
-    
-}
-
-.col-sm-9 {
-    line-height: 30px;
+.text {
+    line-height: 2.5;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
