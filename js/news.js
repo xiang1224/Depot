@@ -26,15 +26,63 @@ function getNewsData(newsId) {
     const newsData = [
         {
             id: 1,
-            title: '標題1',
-            content: '內容1...',
-            image: 'img/ad2.png',
+            title: '7/22東方改裝場盛大開幕',
+            content: '2023.07.21',
+            image: 'img/ad1.png',
         },
         {
             id: 2,
+            title: '東方改裝廠服務介紹',
+            content: '2023.07.21',
+            image: 'img/ad2.png',
+        },
+        {
+            id: 3,
             title: '標題2',
             content: '內容2...',
-            image: 'news2.jpg',
+            image: 'img/ad-simple.png',
+        },
+        {
+            id: 4,
+            title: '標題2',
+            content: '內容2...',
+            image: 'img/ad2.png',
+        },
+        {
+            id: 5,
+            title: '標題2',
+            content: '內容2...',
+            image: 'img/ad2.png',
+        },
+        {
+            id: 6,
+            title: '標題2',
+            content: '內容2...',
+            image: 'img/ad2.png',
+        },
+        {
+            id: 7,
+            title: '標題2',
+            content: '內容2...',
+            image: 'img/ad2.png',
+        },
+        {
+            id: 8,
+            title: '標題2',
+            content: '內容2...',
+            image: 'img/ad2.png',
+        },
+        {
+            id: 9,
+            title: '標題2',
+            content: '內容2...',
+            image: 'img/ad2.png',
+        },
+        {
+            id: 10,
+            title: '標題2',
+            content: '內容2...',
+            image: 'img/ad2.png',
         },
         // 添加更多新聞數據
     ];

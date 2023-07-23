@@ -59,7 +59,12 @@ a.nav-link:focus {
 .nav-item {
     margin-right: 20px;
 }
-
+.dropdown-menu .dropdown-item:hover {
+    color: var(--primary);
+    /* 文字顏色為白色 */
+    background-color: black;
+    /* 背景顏色為黑色 */
+}
 .container {
     background-color: #fff;
     margin-top: 10px;
