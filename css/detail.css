@@ -24,6 +24,7 @@
 }
 #main-image {
     width: 560px;
+    height: 460px;
 }
 .thumbnail-images {
     display: flex;
