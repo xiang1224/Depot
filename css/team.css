@@ -1,3 +1,27 @@
+:root {
+    --primary: #D5C539;
+    --primary-deep: #C6B735;
+    --primary-deep2: #B0A32F;
+    --primary-light: #F4E244;
+    --secondary: #ba5e5d;
+    --secondary-deep: #af1e15;
+    --secondary-deep2: #ba0302;
+    --secondary-light: #B98584;
+    --info: rgba(212, 202, 205);
+    --h1: 64px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 36px;
+    --h5: 32px;
+    --h6: 24px;
+    --p: 20px;
+    --p1: 16px;
+    --p2: 12px;
+}
+.team{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .card {
     color: #000000;
     background-color: #ffffff;
@@ -21,9 +45,12 @@
 .member-title{
     margin-top: 20px;
     font-weight: bold;
+    font-size: var(--h5);
 }
 
 .title {
     margin-top: 20px;
     font-weight: bold;
+    font-size: var(--h4);
+    border-bottom: black solid 2px;
 }
