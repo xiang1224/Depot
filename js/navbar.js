@@ -20,7 +20,7 @@ class MyHeader extends HTMLElement {
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownCars">
                             <li><a class="dropdown-item" href="racingcar.html">跑車</a></li>
-                            <li><a class="dropdown-item" href="#">轎車</a></li>
+                            <li><a class="dropdown-item" href="sedan.html">轎車</a></li>
                             <li><a class="dropdown-item" href="#">機車</a></li>
                             <!-- Add more items here if needed -->
                         </ul>
