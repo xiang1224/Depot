@@ -22,18 +22,22 @@
 nav {
     background-color: black;
 }
+
 .navbar-toggler-icon {
     /* 或設定背景色，例如灰色 */
     background-image: url('/img/burger.png');
 }
+
 a.navbar-brand {
     margin-left: 50px;
     color: white;
     font-size: var(--h3);
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-left: auto;
 }
+
 a.navbar-brand:hover {
     margin-left: 50px;
     color: white;
@@ -59,12 +63,31 @@ a.nav-link:focus {
 .nav-item {
     margin-right: 20px;
 }
+
 .dropdown-menu .dropdown-item:hover {
     color: var(--primary);
     /* 文字顏色為白色 */
     background-color: black;
     /* 背景顏色為黑色 */
 }
+
+.carousel-caption {
+    background: linear-gradient(0.25turn, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    margin-top: 5px;
+}
+
 .container {
     background-color: #fff;
     margin-top: 10px;
@@ -107,7 +130,7 @@ a.nav-link:focus {
 }
 
 @media (max-width:576px) {
-    .navbar-nav{
+    .navbar-nav {
         margin-left: 20px;
         margin-right: auto;
     }
