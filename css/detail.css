@@ -49,7 +49,7 @@
 }
 
 .refit{
-    font-size: var(--h5);
+    font-size: var(--h6);
     list-style: none;
     padding-left: 0;
 }
@@ -63,4 +63,7 @@
 .price{
     font-size: var(--h4);
     position: absolute;
+}
+.sub-items{
+    list-style: none;
 }
