@@ -76,9 +76,15 @@ input:hover {
     color: black;
     background-color: var(--primary-deep);
 }
-
+.card-title{
+    font-size: var(--h6);
+    font-weight: bolder;
+}
 .card-text{
     position: absolute;
+    color: red;
+    font-weight: bolder;
+    font-size: var(--p);
     bottom: 15px;
 }
 .new-badge {
