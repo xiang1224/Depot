@@ -14,3 +14,4 @@ thumbnails.forEach(function (thumbnail) {
         mainImage.src = newSrc;
     });
 });
+
