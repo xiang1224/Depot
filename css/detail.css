@@ -20,7 +20,6 @@
 }
 .container{
     margin-top: 50px;
-    margin-bottom: 100px;
 }
 #main-image {
     width: 560px;
@@ -62,7 +61,6 @@
 }
 .price{
     font-size: var(--h4);
-    position: absolute;
 }
 .sub-items{
     list-style: none;
