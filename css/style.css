@@ -71,6 +71,15 @@ a.nav-link:focus {
     /* 背景顏色為黑色 */
 }
 
+marquee {
+    height: 50px;
+    background-color: var(--primary);
+    font-size: var(--h5);
+    color: white;
+}
+
+
+
 .carousel-caption {
     background: linear-gradient(0.25turn, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
     padding: 10px;
