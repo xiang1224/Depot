@@ -7,7 +7,7 @@ function toggleSubItems(subItemsId) {
     }
 }
 
-function calculateTotal() {
+/*function calculateTotal() {
     const checkboxes = document.querySelectorAll('input[type="checkbox"]');
     const radios = document.querySelectorAll('input[type="radio"]');
     let total = 0;
@@ -59,4 +59,4 @@ function toggleSubItems(subItemsId) {
         });
         calculateTotal(); // 更新價格
     }
-}
+}*/
