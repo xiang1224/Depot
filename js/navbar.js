@@ -16,8 +16,8 @@ class MyHeader extends HTMLElement {
                             車種分類
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownCars">
-                            <li><a class="dropdown-item" href="racingcar.html">跑車</a></li>
-                            <li><a class="dropdown-item" href="sedan.html">轎車</a></li>
+                            <li><a class="dropdown-item disabled" href="racingcar.html">跑車(整理中</a></li>
+                            <li><a class="dropdown-item disabled" href="sedan.html">轎車(整理中)</a></li>
                             <li><a class="dropdown-item disabled" href="#">小型轎車(整理中)</a></li>
                             <li><a class="dropdown-item disabled" href="#">雙門轎車(整理中)</a></li>
                             <li><a class="dropdown-item disabled" href="#">摩托車(整理中)</a></li>
