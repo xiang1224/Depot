@@ -4,14 +4,14 @@ class MyFooter extends HTMLElement {
   <footer>
         <div class="footer-container">
             <div class="footer-column">
-                <img src="img/NY-LOGO.png" alt="圖片1" style="height: 150px;">
+                <img src="/img/NY-LOGO.png" alt="圖片1" style="height: 290px;">
             </div>
             <div class="footer-column">
-                <img src="img/East-LOGO.png" alt="圖片2">
+                <img src="/img/icon.png" alt="圖片2">
             </div>
         </div>
         <div class="footer-bottom">
-            &copy; 2023 東方改裝車廠，保留所有權利。
+            &copy; 2023 MARINE 馬林改裝廠，保留所有權利。
         </div>
     </footer>
       `;

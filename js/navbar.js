@@ -3,7 +3,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
     <header>
         <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="index.html"><img src="img/icon.png" style="width: 100px;"></a>
+            <a class="navbar-brand" href="/index.html"><img src="/img/icon.png" style="width: 100px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@ class MyHeader extends HTMLElement {
                             車種分類
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownCars">
-                            <li><a class="dropdown-item disabled" href="racingcar.html">跑車(整理中</a></li>
+                            <li><a class="dropdown-item" href="racingcar.html">跑車</a></li>
                             <li><a class="dropdown-item disabled" href="sedan.html">轎車(整理中)</a></li>
                             <li><a class="dropdown-item disabled" href="#">小型轎車(整理中)</a></li>
                             <li><a class="dropdown-item disabled" href="#">雙門轎車(整理中)</a></li>
