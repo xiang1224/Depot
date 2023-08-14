@@ -99,6 +99,7 @@ input:hover {
     font-size: var(--p);
     right: 10px;
     bottom: 15px;
+    font-weight: bolder;
 }
 
 .new-badge {
