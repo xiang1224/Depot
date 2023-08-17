@@ -15,3 +15,36 @@ thumbnails.forEach(function (thumbnail) {
     });
 });
 
+var mainImage = document.getElementById("main-image");
+
+mainImage.addEventListener("click", function () {
+    var modal = document.createElement("div");
+    modal.style.position = "fixed";
+    modal.style.zIndex = "3";
+    modal.style.paddingTop = "100px";
+    modal.style.left = "0";
+    modal.style.top = "0";
+    modal.style.width = "100%";
+    modal.style.height = "100%";
+    modal.style.overflow = "auto";
+    modal.style.backgroundColor = "rgba(0,0,0,0.9)";
+    modal.style.display = "flex";
+    modal.style.justifyContent = "center";
+    modal.style.alignItems = "center";
+
+    var img = document.createElement("img");
+    img.src = mainImage.src;
+    img.style.maxWidth = "100%";
+    img.style.maxHeight = "100%";
+    modal.appendChild(img);
+
+    document.body.appendChild(modal);
+    modal.addEventListener("click", function () {
+        modal.remove();
+    });
+
+});
+
+
+
+
