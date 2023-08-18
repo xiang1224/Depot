@@ -24,8 +24,8 @@ class MyHeader extends HTMLElement {
                             <li><a class="dropdown-item" href="musclecar.html">肌肉車</a></li>
                             <li><a class="dropdown-item" href="orv.html">越野車</a></li>
                             <li><a class="dropdown-item" href="van.html">廂型車</a></li>
-                            <li><a class="dropdown-item disabled" href="#">摩托車(整理中)</a></li>
-                            <li><a class="dropdown-item disabled" href="#">經典跑車(整理中)</a></li>
+                            <li><a class="dropdown-item" href="moto.html">摩托車</a></li>
+                            <li><a class="dropdown-item disabled" href="#">經典跑車(暫無)</a></li>
                             <!-- Add more items here if needed -->
                         </ul>
                     </li>
