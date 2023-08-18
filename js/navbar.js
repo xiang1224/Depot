@@ -18,13 +18,13 @@ class MyHeader extends HTMLElement {
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownCars">
                             <li><a class="dropdown-item" href="racingcar.html">跑車</a></li>
                             <li><a class="dropdown-item" href="coupe.html">雙門轎車</a></li>
-                            <li><a class="dropdown-item" href="minicoupe">小型轎車</a></li>
+                            <li><a class="dropdown-item" href="minicoupe.html">小型轎車</a></li>
                             <li><a class="dropdown-item" href="sedan.html">轎車</a></li>
                             <li><a class="dropdown-item" href="suv.html">休旅車</a></li>
                             <li><a class="dropdown-item" href="musclecar.html">肌肉車</a></li>
+                            <li><a class="dropdown-item" href="orv.html">越野車</a></li>
+                            <li><a class="dropdown-item" href="van.html">廂型車</a></li>
                             <li><a class="dropdown-item disabled" href="#">摩托車(整理中)</a></li>
-                            <li><a class="dropdown-item disabled" href="#">越野車(整理中)</a></li>
-                            <li><a class="dropdown-item disabled" href="#">廂型車(整理中)</a></li>
                             <li><a class="dropdown-item disabled" href="#">經典跑車(整理中)</a></li>
                             <!-- Add more items here if needed -->
                         </ul>
