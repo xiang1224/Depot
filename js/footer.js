@@ -4,7 +4,7 @@ class MyFooter extends HTMLElement {
   <footer>
         <div class="footer-container">
             <div class="footer-column">
-                <img src="img/NY-LOGO.png" alt="圖片1" style="height: 290px;">
+                <img class="nylogo" src="img/NY-LOGO.png" alt="圖片1">
             </div>
             <div class="footer-column">
                 <img src="img/icon.png" alt="圖片2">

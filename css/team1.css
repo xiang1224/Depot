@@ -1,0 +1,56 @@
+:root {
+    --primary: #3871C1;
+    --primary-deep: #8EAFDD;
+    --primary-deep2: #363D46;
+    --primary-light: #F4E244;
+    --secondary: #ba5e5d;
+    --secondary-deep: #af1e15;
+    --secondary-deep2: #ba0302;
+    --secondary-light: #B98584;
+    --info: rgba(212, 202, 205);
+    --h1: 64px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 36px;
+    --h5: 32px;
+    --h6: 24px;
+    --p: 20px;
+    --p1: 16px;
+    --p2: 12px;
+}
+.team{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-subtitle {
+    font-weight: bolder;
+}
+
+.card-text {
+    font-weight: 900;
+}
+
+.member-title{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: var(--h5);
+}
+
+.title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: var(--h4);
+    border-bottom: black solid 2px;
+}

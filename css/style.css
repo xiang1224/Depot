@@ -78,7 +78,9 @@ marquee {
     color: white;
 }
 
-
+.carousel-item img{
+    height: 652px;
+}
 
 .carousel-caption {
     background: linear-gradient(0.25turn, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
@@ -138,9 +140,24 @@ marquee {
     padding: 10px 0;
 }
 
-@media (max-width:576px) {
+.nylogo {
+    height: 270px;
+}
+
+@media (max-width:768px) {
     .navbar-nav {
         margin-left: 20px;
         margin-right: auto;
+    }
+        a.navbar-brand {
+            margin-left: 15px;
+            color: white;
+            font-size: var(--h3);
+        }
+.carousel-item img {
+    height: 200px;
+}
+    .nylogo {
+        height: 175px;
     }
 }
