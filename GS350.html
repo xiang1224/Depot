@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>MARINE馬林改裝廠</title>
+</head>
+
+<body>
+    <my-header></my-header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="img/sedan/GS350/1.png" class="img-fluid mb-3" alt="Product Image" id="main-image">
+                <div class="d-flex flex-wrap">
+                    <img src="img/sedan/GS350/1.png" alt="Thumbnail Image 1" class="thumbnail-image me-3 mb-3">
+                    <img src="img/sedan/GS350/3.png" alt="Thumbnail Image 2" class="thumbnail-image me-3 mb-3">
+                    <img src="img/sedan/GS350/2.png" alt="Thumbnail Image 3" class="thumbnail-image me-3 mb-3">
+                    <img src="img/sedan/GS350/5.png" alt="Thumbnail Image 4" class="thumbnail-image me-3 mb-3">
+                    <img src="img/sedan/GS350/4.png" alt="Thumbnail Image 4" class="thumbnail-image mb-3">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h1 class="car-title">GS350</h1>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="exterior-tab" data-bs-toggle="tab"
+                            data-bs-target="#exterior" type="button" role="tab" aria-controls="exterior"
+                            aria-selected="true">外觀改裝</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="performance-tab" data-bs-toggle="tab" data-bs-target="#performance"
+                            type="button" role="tab" aria-controls="performance" aria-selected="false"
+                            disabled>性能改裝</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <!-- 外觀改裝 Tab -->
+                    <div class="tab-pane fade show active" id="exterior" role="tabpanel" aria-labelledby="exterior-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="refit">
+                                    <!-- 左欄外觀改裝品項目 -->
+                                    <li>
+                                        <input type="checkbox" id="item1" data-price="2325" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item1">側裙</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item2" data-price="2560" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item2">前保險桿</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item3" data-price="2560" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item3">前擋泥板</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item4" data-price="2325" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item4">定風翼</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item5" data-price="2440" onclick="calculateTotal()"
+                                           disabled >
+                                        <label for="item5">引擎蓋</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item6" data-price="2560" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item6">後保險桿</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item7" data-price="2560" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item7">後擋泥板</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item8" data-price="2560" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item8">排氣管</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="refit">
+                                    <!-- 右欄外觀改裝品項目 -->
+                                    <li>
+                                        <input type="checkbox" id="item9" data-price="1860" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item9">水箱護罩</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item10" data-price="2790" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item10">車頂</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item11" data-price="2560" onclick="calculateTotal()"
+                                            disabled>
+                                        <label for="item11">防滾架</label>
+                                    </li>
+                                    <input type="checkbox" id="item12" data-price="0"
+                                        onclick="toggleSubItems('subItems1')"disabled>
+                                    <label for="item12">輪胎</label>
+                                    <ul class="sub-items" id="subItems1" style="display: none;">
+                                        <li>
+                                            <input type="radio" id="subItem1" name="tireType" data-price="2095"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem1">休旅車胎</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="subItem2" name="tireType" data-price="2325"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem2">低底盤車胎</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="subItem3" name="tireType" data-price="1630"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem3">摩托車胎</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="subItem4" name="tireType" data-price="2560"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem4">改裝車胎</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="subItem5" name="tireType" data-price="2095"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem5">肌肉車胎</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="subItem6" name="tireType" data-price="2095"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem6">越野車胎</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="subItem7" name="tireType" data-price="2325"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem7">跑車胎</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="subItem8" name="tireType" data-price="2560"
+                                                onclick="calculateTotal()">
+                                            <label for="subItem8">高檔車胎</label>
+                                        </li>
+                                    </ul>
+
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item13" data-price="560" onclick="calculateTotal()"disabled>
+                                        <label for="item13">喇叭</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item14" data-price="560" onclick="calculateTotal()"disabled>
+                                        <label for="item14">霓虹套件</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item15" data-price="1860" onclick="calculateTotal()"disabled>
+                                        <label for="item15">大燈</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="item16" data-price="560" onclick="calculateTotal()"disabled>
+                                        <label for="item16">車色</label>
+                                    </li>
+                                    <!-- 添加更多外觀改裝品項目 -->
+                                    <!-- ... 添加其他右欄的外觀改裝品項目 ... -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 性能改裝 Tab -->
+                    <div class="tab-pane fade" id="performance" role="tabpanel" aria-labelledby="performance-tab">
+                        <div class="mb-3">
+                            <label for="engineSelect" class="form-label">引擎</label>
+                            <select class="form-select" id="engineSelect" onchange="calculateTotal()">
+                                <option value="0">不選擇</option>
+                                <option value="100">Level 1 - $100</option>
+                                <option value="200">Level 2 - $200</option>
+                                <option value="300">Level 3 - $300</option>
+                                <option value="400">Level 4 - $400</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="suspensionSelect" class="form-label">懸吊</label>
+                            <select class="form-select" id="suspensionSelect" onchange="calculateTotal()">
+                                <option value="0">不選擇</option>
+                                <option value="120">Level 1 - $120</option>
+                                <option value="220">Level 2 - $220</option>
+                                <option value="320">Level 3 - $320</option>
+                                <option value="420">Level 4 - $420</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="turboSelect" class="form-label">渦輪</label>
+                            <select class="form-select" id="turboSelect" onchange="calculateTotal()">
+                                <option value="0">不選擇</option>
+                                <option value="180">Level 1 - $180</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="brakeSelect" class="form-label">剎車</label>
+                            <select class="form-select" id="brakeSelect" onchange="calculateTotal()">
+                                <option value="0">不選擇</option>
+                                <option value="150">Level 1 - $150</option>
+                                <option value="250">Level 2 - $250</option>
+                                <option value="350">Level 3 - $350</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="bodySelect" class="form-label">板金</label>
+                            <select class="form-select" id="bodySelect" onchange="calculateTotal()">
+                                <option value="0">不選擇</option>
+                                <option value="90">Level 1 - $90</option>
+                                <option value="190">Level 2 - $190</option>
+                                <option value="290">Level 3 - $290</option>
+                                <option value="390">Level 4 - $390</option>
+                                <option value="490">Level 5 - $490</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="transmissionSelect" class="form-label">變速箱</label>
+                            <select class="form-select" id="transmissionSelect" onchange="calculateTotal()">
+                                <option value="0">不選擇</option>
+                                <option value="200">Level 1 - $200</option>
+                                <option value="300">Level 2 - $300</option>
+                                <option value="400">Level 3 - $400</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 改裝總金額 -->
+                <p class="mb-3 price">估計金額: $<span id="total">0</span>
+
+                </p>
+
+            </div>
+            <h3 style="color: red;">注意事項：</h3>
+            <p style="color: red;">
+                估算金額僅包含改裝品費用，尚未包含手續費及工錢。
+                <br>
+                車廠擁有更改內容及價錢的權利，最終價格以車廠確認為準。
+                <br>
+                此網站僅提供部分改裝品估價，如有其他需求及問題，請到車廠詢問。
+            </p>
+        </div>
+    </div>
+    <my-footer></my-footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+
+
+    <script src="js/navbar.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/carphoto.js"></script>
+    <script src="js/price.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

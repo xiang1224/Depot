@@ -21,7 +21,7 @@ mainImage.addEventListener("click", function () {
     var modal = document.createElement("div");
     modal.style.position = "fixed";
     modal.style.zIndex = "3";
-    modal.style.paddingTop = "100px";
+    modal.style.paddingTop = "10px";
     modal.style.left = "0";
     modal.style.top = "0";
     modal.style.width = "100%";
@@ -34,8 +34,8 @@ mainImage.addEventListener("click", function () {
 
     var img = document.createElement("img");
     img.src = mainImage.src;
-    img.style.maxWidth = "100%";
-    img.style.maxHeight = "100%";
+    img.style.maxWidth = "90%";
+    img.style.maxHeight = "90%";
     modal.appendChild(img);
 
     document.body.appendChild(modal);

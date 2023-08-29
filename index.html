@@ -15,6 +15,24 @@
 
 <body>
     <my-header></my-header>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>2023.08.29網站更新</h2>
+            <p>這次的更新包括以下車種：</p>
+            <ul id="updated-models">
+                <li>跑車：新增11輛</li>
+                <li>轎車：新增6輛</li>
+                <li>休旅車：新增1輛</li>
+                <li>雙門轎車：DC5價錢上修</li>
+                <li>肌肉車：新增5輛</li>
+                <li>越野車：新增1輛、G63 AMG價錢下修</li>
+                <li>經典跑車：新增2輛</li>
+                <!-- 添加更多更新的車種 -->
+            </ul>
+            <button id="confirm-btn">確認</button>
+        </div>
+    </div>
+
     <marquee>因改裝品進貨商尚未找到，所有改裝暫不開放，造成不便，盡請見諒。</marquee>
     <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
@@ -91,6 +109,7 @@
 
     <script src="js/navbar.js"></script>
     <script src="js/footer.js"></script>
+    <script src="js/update.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
